@@ -1,5 +1,5 @@
 # Challenge #20 React Portfolio
-Univeristy of Oregon: Coding Bootcamp
+University of Oregon: Coding Bootcamp
 
 ## User Story
 
@@ -39,4 +39,4 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-# Created by - [Miranda Thompson](https://github.com/MirandaT77) :e-mail:[Email me](mailto:ranileah7@gmail.com)
+## Created by - [Miranda Thompson](https://github.com/MirandaT77) :e-mail:[Email me](mailto:ranileah7@gmail.com)
