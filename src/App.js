@@ -10,7 +10,7 @@ function App() {
       name: 'Projects',
       description: 'Please navigate to "Work" to see examples of projects I have completed during my coding courses',
     },
-    { name: 'work', description: 'Coding Projects' },
+    { name: 'Work', description: 'Welcome to my Coding Projects. This will highlight some of the modules, homework challenges and projects I have completed during my courses. ' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
