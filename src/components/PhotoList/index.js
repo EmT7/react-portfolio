@@ -7,32 +7,32 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
-      category: 'commercial',
+      name: 'Run-Buddy',
+      category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'My first coding project using HTML and CSS'
     },
     {
-      name: 'Grocery booth',
-      category: 'commercial',
+      name: 'Taskmaster Pro',
+      category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'First JavaScript project, kanban style board.'
     },
     {
-      name: 'Building exterior',
-      category: 'commercial',
+      name: 'Taskinator',
+      category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Taskinator is a more elaborate task assignment page with Tasks to do, in progress, complete where you can drag and drop and categorize by task type'
     },
     {
       name: 'Restaurant table',
-      category: 'commercial',
+      category: 'work',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Cafe interior',
-      category: 'commercial',
+      category: 'work',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
