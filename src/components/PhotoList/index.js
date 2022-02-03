@@ -8,19 +8,19 @@ const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Run-Buddy',
-      category: 'work',
+      category: 'projects',
       description:
         'My first coding project using HTML and CSS'
     },
     {
       name: 'Taskmaster Pro',
-      category: 'work',
+      category: 'projects',
       description:
         'First JavaScript project, kanban style board.'
     },
     {
       name: 'Taskinator',
-      category: 'work',
+      category: 'projects',
       description:
         'Taskinator is a more elaborate task assignment page with Tasks to do, in progress, complete where you can drag and drop and categorize by task type'
     }

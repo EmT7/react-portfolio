@@ -18,7 +18,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">  </span> Miranda Thompson's Portfolio
+          <span role="img" >  </span>  Miranda Thompson's Portfolio
         </a>
       </h2>
       <nav>
@@ -38,7 +38,7 @@ function Nav(props) {
                 }`}
               key={category.name}
             >
-              <span
+              <span 
                 onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);

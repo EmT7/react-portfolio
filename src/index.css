@@ -1,15 +1,15 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #052;
-  --tertiary: #b12704;
-  --light: #0F0;
-  --dark: #000000;
-  --darker: #111111;
+  --primary:#052;
+  --secondary: #41B3A3;
+  --tertiary: #052;
+  --light: #41B3A3;
+  --dark: #85DCBA;
+  --darker: #41B3A3;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
