@@ -1,7 +1,7 @@
 # Challenge #20 React Portfolio
 University of Oregon: Coding Bootcamp
 
-This is my Project Portfolio
+This is my React Project Portfolio!
 
 [Deployed Application](https://github.com/MirandaT77/react-portfolio)
 
