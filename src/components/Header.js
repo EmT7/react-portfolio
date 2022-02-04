@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Route, HashRouter , Routes} from "react-router-dom";
-import { Redirect } from 'react-router'
-import Nav from "./Nav";
+import Navigation from "./Navigation";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from './Contact';
@@ -35,4 +34,3 @@ class Header extends Component {
 
 
 export default Header;
-

@@ -1,16 +1,18 @@
 import React from 'react';
-import Project from "./Projects";
-function Portfolio() {
+import Project from "./Project";
+ function Portfolio() {
     return (
-        <div>
-            <form>
-                <h1>Portfolio </h1>
-            </form>
-            <Project projects={projects} />
-        </div>
+      <div>
+        
+   <form>
+            <h1>Portfolio </h1>
+            <h4> Welcome to my portfolio of coding projects. This section will highlight some of the modules, homework challenges and projects I have completed during my courses. </h4>
+        </form>
+        <Project projects={projects} />
+      </div>
     );
-}
-const projects = [
+  }
+  const projects = [
     {
         id: 0,
         title: "Run-Buddy",
@@ -55,5 +57,7 @@ const projects = [
       },
 ];
 
-
+  
+ 
 export default Portfolio;
+

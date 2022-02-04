@@ -11,7 +11,7 @@ function About() {
         <p>
         My desire is that my portfolio will show case my personality and new talents as a web developer and overall give you a sneak peek at who I am! Please feel free to reach out with any opportunities and please, enjoy my page!
         </p>
-        <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+        <img src={coverImage} className="my-2" style={{ width: "85%" }} alt="cover" />
       </div>
     </section>
   );

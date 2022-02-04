@@ -1,25 +1,10 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../utils/helpers';
+import React from "react";
 import { Navbar } from "react-bootstrap";
 import {NavLink} from "react-router-dom";
 
-
-function Nav(props) {
-  const {
-    // categories = [],
-    // setCurrentCategory,
-    // contactSelected,
-    currentCategory,
-    // setContactSelected,
-  } = props;
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
-
+function Navigation(props) {
   return (
-    <header className="flex-row px-1">
-<div>
+    <div>
       <Navbar expand="lg" bg="dark" sticky="top">
         <NavLink className="nav-link" to="/">
         </NavLink>
@@ -48,8 +33,7 @@ function Nav(props) {
         </ul>
       </Navbar>
     </div>
-    </header>
   );
 }
 
-export default Nav;
+export default Navigation;
