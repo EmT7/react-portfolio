@@ -1,6 +1,8 @@
 # Challenge #20 React Portfolio
 University of Oregon: Coding Bootcamp
 
+This is my Project Portfolio
+
 ## User Story
 
 ```md
