@@ -12,7 +12,7 @@ function Resume() {
                         <a
                             className="button is-primary"
                             href={process.env.PUBLIC_URL + "/MTR.pdf"}
-                            target="_blank" rel="noreferrer"
+                            // target="_blank" rel="noreferrer"
                         >
                             <span className="icon">
                                 <i className="fas fa-download"></i>

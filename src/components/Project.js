@@ -12,7 +12,7 @@ function Project(props) {
                                     {project.title}
                                 </p>
                         <figure>
-                            <a href={project.live} target="_blank" rel="noreferrer">
+                            <a href={project.live}>
                                 <img className="img"src={process.env.PUBLIC_URL + project.image} alt="Placeholder" />
                             </a>
                         </figure>
@@ -32,7 +32,7 @@ function Project(props) {
                                     <a
                                         href={project.repo}
                                         className="card-footer-item"
-                                        target="_blank" rel="noreferrer"
+
                                     >
                                         Repository
                                     </a>
@@ -40,7 +40,7 @@ function Project(props) {
                                     <a
                                         href={project.live}
                                         className="card-footer-item"
-                                        target="_blank" rel="noreferrer"
+                                    
                                     >
                                         Deployed Application
                                     </a>

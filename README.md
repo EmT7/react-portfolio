@@ -3,7 +3,7 @@ University of Oregon: Coding Bootcamp
 
 This is my React Project Portfolio!
 
-[Deployed Application](https://github.com/MirandaT77/react-portfolio)
+[Deployed Application](https://git.heroku.com/miranda-portfolio.git)
 
 ## User Story
 
