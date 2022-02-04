@@ -1,6 +1,7 @@
 node_modules
 .DS_store
 .env
+/lib
 
 # dependencies
 /node_modules
