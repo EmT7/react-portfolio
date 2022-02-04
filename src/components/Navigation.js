@@ -6,6 +6,9 @@ function Navigation(props) {
   return (
     <div>
       <Navbar expand="lg" bg="dark" sticky="top">
+      <a data-testid="link" href="https://github.com/mirandat77">
+          <span role="img" aria-label="flamingo"> 🦩 </span> Github
+        </a>
         <NavLink className="nav-link" to="/">
         </NavLink>
         <ul className="navbar-nav ml-auto navitem-indent">
